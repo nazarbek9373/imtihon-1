@@ -337,9 +337,32 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/") format("woff2"), url("../fonts/") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Regular.woff2") format("woff2"), url("../fonts/Jost-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Medium.woff2") format("woff2"), url("../fonts/Jost-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 /* GENERAL */
 * {
   box-sizing: border-box;
+  font-family: "Jost";
+  font-weight: normal;
 }
 
 html {
@@ -984,7 +1007,7 @@ img {
   gap: 30px;
 }
 .section1 .section1--card .section1--box-1 .section1-text {
-  background-image: url(../../images/printerst.svg);
+  background-image: url(../../images/noothand.svg);
   width: 541px;
   height: 640px;
   position: relative;
@@ -1117,7 +1140,7 @@ img {
   }
   .section1 .section1--card .section1--box-1 .section1-text {
     background-repeat: no-repeat;
-    background-image: url(../../images/telhand.svg);
+    background-image: url(../../images/noothand.svg);
     background-size: 689px;
     margin: 0 auto;
     padding-right: 100px;
@@ -1141,6 +1164,7 @@ img {
     background-color: #E7816B;
   }
   .section1 .section1--card .section1--box-1 .section1-text .section1--box-1-h2 {
+    margin-left: 200px;
     height: 48px;
     font-family: "Jost";
     font-weight: 500;
@@ -1151,6 +1175,7 @@ img {
     color: #FFFFFF;
   }
   .section1 .section1--card .section1--box-1 .section1-text .section1--box-1-p {
+    margin-left: 150px;
     font-weight: 500;
     font-size: 15px;
     line-height: 22px;
@@ -1253,7 +1278,7 @@ img {
   }
   .section1 .section1--card .section1--box-1 .section1-text {
     background-repeat: no-repeat;
-    background-image: url(../../images/telhand.svg);
+    background-image: url(../../images/noothand.svg);
     background-size: 375px;
     margin: 0 auto;
     padding-right: 100px;
@@ -1733,7 +1758,7 @@ img {
   }
   .intro .intro-item .section3--intro .section3-p {
     text-align: center;
-    width: 573px;
+    width: 543px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -2232,6 +2257,7 @@ img {
   color: #333136;
 }
 .main--box .box1 .box1-btn {
+  margin-right: 50px;
   width: 152px;
   height: 56px;
   border: none;
@@ -2262,6 +2288,7 @@ img {
     margin-left: 200px;
   }
   .main--box .box1 {
+    margin-top: 50px;
     text-align: center;
     align-items: center;
     flex-direction: column;
