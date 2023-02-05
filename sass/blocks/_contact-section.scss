@@ -1,0 +1,517 @@
+.masc {
+    width: 1111px;
+    height: 480px;
+    background: #e7816b;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-image: url(../images/images/ovalend.svg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    padding-left: 95px;
+    margin-bottom:-0px;
+    position: relative;
+
+    .masc-left {
+        padding-top: 135px;
+
+        .masc-title {
+            width: 540px;
+            height: 48px;
+            left: 260px;
+            top: 290px;
+
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 48px;
+            /* identical to box height, or 100% */
+
+
+            color: #FFFFFF;
+
+        }
+
+        .masc-text {
+            width: 445px;
+            height: 104px;
+            left: 260px;
+            top: 370px;
+            margin-top: 32px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+
+            color: #FFFFFF;
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-right: 96px;
+        padding-top: 55px;
+        z-index: 4;
+
+
+        #name {
+            border: none;
+            border-bottom: 1px solid white;
+            width: 380px;
+            background-color: transparent;
+            padding-bottom: 11px;
+            padding-left: 11px;
+            outline: none;
+            display: inline-block;
+
+            &::placeholder {
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 26px;
+                /* identical to box height, or 173% */
+
+
+                color: #FFFFFF;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+            }
+
+            &:hover {
+                border-bottom: 3px solid white;
+            }
+
+            &:active {
+                border-bottom: 3px solid white;
+            }
+        }
+    }
+
+    #text {
+        border: none;
+        border-bottom: 1px solid white;
+        width: 380px;
+        background-color: transparent;
+        padding-bottom: 75px;
+        padding-left: 11px;
+        outline: none;
+
+        &::placeholder {
+
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 26px;
+            /* identical to box height, or 173% */
+
+
+            color: #FFFFFF;
+
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+    }
+
+    .form-button {
+        margin-top: 100px;
+z-index: 2;
+        border: none;
+        margin-left: 230px;
+        width: 152px;
+        height: 56px;
+        border-radius: 8px;
+        background: #FFFFFF;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+        color: #333136;
+
+        &:hover {
+
+            background: #FFAD9B;
+
+            color: #FFFFFF;
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .masc {
+        max-width: 689px;
+        height: 711px;
+        background: #e7816b;
+        border-radius: 15px;
+        margin-top: -100px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        background-image: url(../images/images/ovalend.svg);
+        background-repeat: no-repeat;
+        background-position-y: top;
+        background-position: -165px 0px;
+        padding-left: 58px;
+        margin-bottom: 0px;
+        margin:20px auto;
+
+
+        .masc-left {
+            padding-top: 58px;
+
+            .masc-title {
+                width: 540px;
+                height: 48px;
+                left: 260px;
+                top: 290px;
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 48px;
+                /* identical to box height, or 100% */
+
+
+                color: #FFFFFF;
+
+            }
+
+            .masc-text {
+                width: 573px;
+                height: 104px;
+                left: 260px;
+                top: 370px;
+                margin-top: 32px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                /* or 162% */
+
+
+                color: #FFFFFF;
+            }
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            padding-right: 96px;
+            margin-right: 200px;
+            padding-top: 55px;
+            position: absolute;
+            left: 58px;
+            top: 269px;
+            z-index: 4;
+
+
+            #name {
+                border: none;
+                border-bottom: 1px solid white;
+                width: 573px;
+                background-color: transparent;
+                padding-bottom: 11px;
+                padding-left: 11px;
+                outline: none;
+
+                &::placeholder {
+
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 26px;
+                    /* identical to box height, or 173% */
+
+
+                    color: #FFFFFF;
+
+                    mix-blend-mode: normal;
+                    opacity: 0.5;
+                }
+
+                &:hover {
+                    border-bottom: 3px solid white;
+                }
+
+                &:active {
+                    border-bottom: 3px solid white;
+                }
+            }
+        }
+
+        #text {
+            border: none;
+            border-bottom: 1px solid white;
+            width: 573px;
+            background-color: transparent;
+            padding-bottom: 75px;
+            padding-left: 11px;
+            outline: none;
+
+            &::placeholder {
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 26px;
+                /* identical to box height, or 173% */
+
+
+                color: #FFFFFF;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+            }
+        }
+
+        .form-button {
+            position: absolute;
+            top: 600px;
+            left: 50px;
+            border: none;
+         
+            width: 152px;
+            height: 56px;
+            border-radius: 8px;
+            background: #FFFFFF;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height */
+
+            text-align: center;
+            margin-top: 10px;
+            
+            letter-spacing: 1px;
+            text-transform: uppercase;
+
+            color: #333136;
+
+            &:hover {
+
+                background: #FFAD9B;
+
+                color: #FFFFFF;
+            }
+        }
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    .masc {
+        max-width: 375px;
+        height: 764px;
+        background: #e7816b;
+        border-radius: 0px;
+        margin-top: 00px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        background-image: url(../images/images/ovalend.svg);
+        background-repeat: no-repeat;
+        background-position-y: top;
+        background-position: -165px 0px;
+        padding-left: 58px;
+        margin-bottom: 0px;
+        margin: 10px auto;
+
+
+        .masc-left {
+            padding-top: 72px;
+
+            .masc-title {
+                width: 327px;
+                height: 36px;
+                left: 24px;
+                top: 168px;
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 36px;
+                /* identical to box height, or 112% */
+
+                text-align: center;
+                margin-left: -30px;
+                padding-left: 0px;
+
+                color: #FFFFFF;
+
+            }
+
+            .masc-text {
+                width: 327px;
+                height: 125px;
+                left: 24px;
+                top: 228px;
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                /* or 167% */
+
+                text-align: center;
+                margin-left: -30px;
+                color: #FFFFFF;
+            }
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            padding-right: 96px;
+            margin-right: 200px;
+            padding-top: 55px;
+            position: absolute;
+            left: 24px;
+            top: 269px;
+            z-index: 4;
+
+
+            #name {
+                border: none;
+                border-bottom: 1px solid white;
+                width: 327px;
+                background-color: transparent;
+                padding-bottom: 11px;
+                padding-left: 11px;
+                outline: none;
+
+                &::placeholder {
+
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 26px;
+                    /* identical to box height, or 173% */
+
+
+                    color: #FFFFFF;
+
+                    mix-blend-mode: normal;
+                    opacity: 0.5;
+                }
+
+                &:hover {
+                    border-bottom: 3px solid white;
+                }
+
+                &:active {
+                    border-bottom: 3px solid white;
+                }
+            }
+        }
+
+        #text {
+            border: none;
+            border-bottom: 1px solid white;
+            width: 327px;
+            background-color: transparent;
+            padding-bottom: 75px;
+            padding-left: 11px;
+            outline: none;
+
+            &::placeholder {
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 26px;
+                /* identical to box height, or 173% */
+
+
+                color: #FFFFFF;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+            }
+        }
+
+        .form-button {
+
+            border: none;
+            margin-left: 90px;
+            width: 152px;
+            height: 56px;
+            border-radius: 8px;
+            background: #FFFFFF;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height */
+
+            text-align: center;
+            margin-top: 20px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+
+            color: #333136;
+
+            &:hover {
+
+                background: #FFAD9B;
+
+                color: #FFFFFF;
+            }
+        }
+    }
+
+
+
+
+
+
+
+}

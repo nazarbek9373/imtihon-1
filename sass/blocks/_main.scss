@@ -1,0 +1,224 @@
+.main__card {
+    margin-top: 64px;
+    position: relative;
+    height: 640px;
+    background: #E7816B;
+    display: flex;
+
+    .main_box-1 {
+        margin-top: 45px;
+        margin-left: 95px;
+        .box--1-h1 {
+            max-width: 540px;
+            min-height: 165px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 48px;
+            color: #FFFFFF;
+        }
+
+        .box--1-p {
+            max-width: 445px;
+            min-height: 78px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FFFFFF;
+        }
+
+        .box--1-btn {
+            margin-top: 50px;
+            width: 152px;
+            height: 56px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+           border: none;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            color: #333136;
+           &:hover{
+            background: #FFAD9B;
+           }
+        }
+    }
+
+
+    .main_box-2 {
+        .tel{
+            position: absolute;
+           bottom: 0;
+           right: 0;
+           max-width:309px ;
+           min-height: 373px;
+        }
+        position: absolute;
+        background-image: url(../../images/Oval.png);
+        width: 640px;
+        height: 640px;
+        bottom: 0;
+        right: 0;
+    }
+}
+@media only screen and(max-width:768px){
+    .main__card {
+        overflow: hidden;
+        margin-top: 64px;
+        position: relative;
+        height: 843px;
+        background: #E7816B;
+        
+    
+        .main_box-1 {
+            text-align: center;
+            margin-top: 45px;
+            margin-left: 95px;
+            .box--1-h1 {
+                max-width: 550px;
+                min-height: 165px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 48px;
+                color: #FFFFFF;
+            }
+    
+            .box--1-p {
+                margin-left: 20px;
+                max-width: 485px;
+                min-height: 78px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #FFFFFF;
+            }
+    
+            .box--1-btn {
+                margin-top: 30px;
+                width: 152px;
+                height: 56px;
+                background: #FFFFFF;
+                border-radius: 8px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+               border: none;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                cursor: pointer;
+    
+                color: #333136;
+               &:hover{
+                background: #FFAD9B;
+               }
+            }
+        }
+    
+    
+        .main_box-2 {
+            .tel{
+                position: absolute;
+               bottom:-80px;
+               left: 55px;
+              
+               justify-content: center;
+               max-width:309px ;
+               min-height: 373px;
+            }
+            position: absolute;
+            background-image: url(../../images/Oval.png);
+            width: 640px;
+            height: 640px;
+            bottom: 0;
+        left: 190px;
+        }
+    }  
+}
+@media only screen and(max-width:375px){
+    .main__card {
+
+        overflow: hidden;
+        margin-top: 64px;
+        position: relative;
+        height: 843px;
+        background: #E7816B;
+        
+    
+        .main_box-1 {
+            text-align: center;
+            margin-top: 45px;
+            margin-left: 20px;
+            .box--1-h1 {
+                max-width: 550px;
+                min-height: 165px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 36px;
+                color: #FFFFFF;
+            }
+    
+            .box--1-p {
+                max-width: 485px;
+                min-height: 78px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                color: #FFFFFF;
+            }
+    
+            .box--1-btn {
+                margin-top: 30px;
+                width: 152px;
+                height: 56px;
+                background: #FFFFFF;
+                border-radius: 8px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+               border: none;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                cursor: pointer;
+    
+                color: #333136;
+               &:hover{
+                background: #FFAD9B;
+               }
+            }
+        }
+    
+    
+        .main_box-2 {
+            .tel{
+                position: absolute;
+               bottom:-80px;
+               left: 25px;
+              
+               justify-content: center;
+               max-width:309px ;
+               min-height: 373px;
+            }
+            position: absolute;
+            background-image: url(../../images/Oval.png);
+            width: 640px;
+            height: 640px;
+            background-size: 640px;
+            left: 40px;
+        }
+    }  
+}

@@ -1,0 +1,15 @@
+.container {
+    max-width: 1111px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+@media only screen and(max-width:689px){
+    .container {
+        max-width: 689px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        
+    }
+}

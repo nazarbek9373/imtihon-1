@@ -1,0 +1,184 @@
+.main--box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-bottom: 160px;
+
+    .box1 {
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .canada-img {
+            width: 300px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+        }
+
+        .canada-h4 {
+            width: 300px;
+            height: 26px;
+            text-align: center;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 26px;
+
+            letter-spacing: 5px;
+
+            color: #333136;
+        }
+
+        .box1-btn {
+            width: 152px;
+            height: 56px;
+            border: none;
+            background: #E7816B;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+              cursor: pointer;
+            color: #FFFFFF;
+
+            &:hover{
+              background:#FFAD9B;  
+            }
+        }
+
+        .img-1 {
+            width: 350px;
+            text-align: center;
+        }
+    }
+}
+@media only screen and(max-width:768px){
+    .main--box {
+        margin-left: 0 auto;
+        flex-direction: column;
+        margin-top: 160px;
+       margin-left: 200px;
+    
+        .box1 {
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+    
+            .canada-img {
+                width: 300px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                margin-left: 50px;
+            }
+    
+            .canada-h4 {
+              
+                width: 300px;
+                height: 26px;
+                text-align: center;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 26px;
+    
+                letter-spacing: 5px;
+    
+                color: #333136;
+            }
+    
+            .box1-btn {
+                margin-right: 35px;
+                width: 152px;
+                height: 56px;
+                border: none;
+                background: #E7816B;
+                border-radius: 8px;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                  cursor: pointer;
+                color: #FFFFFF;
+    
+                &:hover{
+                  background:#FFAD9B;  
+                }
+            }
+    
+            .img-1 {
+                width: 350px;
+                text-align: center;
+            }
+        }
+    }  
+}
+@media only screen and(max-width:375px){
+    .main--box {
+        margin-left: 0 auto;
+        flex-direction: column;
+        margin-top: 160px;
+       margin-left: 60px;
+    
+        .box1 {
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+    
+            .canada-img {
+                width: 300px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                margin-left: 50px;
+            }
+    
+            .canada-h4 {
+              
+                width: 300px;
+                height: 26px;
+                text-align: center;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 26px;
+    
+                letter-spacing: 5px;
+    
+                color: #333136;
+            }
+    
+            .box1-btn {
+                margin-right: 35px;
+                width: 152px;
+                height: 56px;
+                border: none;
+                background: #E7816B;
+                border-radius: 8px;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                  cursor: pointer;
+                color: #FFFFFF;
+    
+                &:hover{
+                  background:#FFAD9B;  
+                }
+            }
+    
+            .img-1 {
+                width: 350px;
+                text-align: center;
+            }
+        }
+    }  
+}
